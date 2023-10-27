@@ -6,5 +6,4 @@ huskylens.writeLearn1(1)
 led.plot(0, 0)
 basic.forever(function on_forever() {
     huskylens.request()
-    
 })
