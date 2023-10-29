@@ -19,14 +19,14 @@ def on_forever():
         huskylens.clear_osd()
         if xco <= 159:
             huskylens.write_osd("appeared left", 40, 30)
-            x = 160 - x
-            x = x/16
-            maqueen.motor_run(maqueen.Motors.M1, maqueen.Dir.CW, 50-x)
+            xco = 160 - xco
+            xco = xco/16
+            maqueen.motor_run(maqueen.Motors.M1, maqueen.Dir.CW, 50-xco)
         elif xco <= 319:
             huskylens.write_osd("appeared right", 40, 30)
-            x = x - 160
-            x = x/16
-            maqueen.motor_run(maqueen.Motors.M2, maqueen.Dir.CW, 50-x)
+            xco = xco - 160
+            xco = xco/16
+            maqueen.motor_run(maqueen.Motors.M2, maqueen.Dir.CW, 50-xco)
         else:
             pass
     else:
