@@ -1,24 +1,5 @@
+# Maqueen Robot & Huskey Lens simple project.
 
-> Open this page at [https://enochmia.github.io/projectnum2/](https://enochmia.github.io/projectnum2/)
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/enochmia/projectnum2** and import
-
-## Edit this project
-
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/enochmia/projectnum2** and click import
-
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+* 0116.py => latest version of python code
+* 0156.js => latest version of java script code
+* 2311010302.ts => latest version of type script code
